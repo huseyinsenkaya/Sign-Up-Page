@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>AnalogSea</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+    <img class="logo" src="images/logo.png" alt="logo-analog">
+    <form class="as-form" action="/signup/" method="POST">
+        <fieldset class="contact-info">
+
+            <legend>Sign Up</legend>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="foo@bar.com" required>
+
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass" placeholder="123pasword" required>
+
+
+            <button type="submit">Sign Up</button>
+        </fieldset>
+    </form>
+    <p>Already have an account? <a href="/login">Log in</a></p>
+</body>
+
+</html>
